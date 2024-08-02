@@ -1,0 +1,155 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+/* Section Styles */
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ff7e5f;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* About Me Section with Image */
+section#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
+
+section#about p {
+    overflow: hidden; /* Ensures text wraps around the image */
+}
+
+/* Skills Section Styles */
+section#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#skills li {
+    background-color: #feb47b;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/* Certifications Section Styles */
+section#certifications ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section#certifications li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Projects Section Styles */
+section#projects .project {
+    background-color: #ff7e5f;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    color: #fff;
+}
+
+section#projects .project h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+section#projects .project p {
+    line-height: 1.6;
+}
+
+section#projects .project a {
+    color: #feb47b;
+    text-decoration: none;
+}
+
+section#projects .project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Information Section Styles */
+section#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#contact li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+section#contact a {
+    color: #ff7e5f;
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Adding Social Media Icons */
+section#contact ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
