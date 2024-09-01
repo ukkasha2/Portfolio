@@ -8,26 +8,31 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Showcasing My Projects, Skills, and More</p>
+        <div class="header-background"></div>
+        <div class="header-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Showcasing My Projects, Skills, and More</p>
+        </div>
     </header>
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <img src="uk.jpg" alt="Aminu Ukasha Aliyu" style="width: 150px; border-radius: 50%; margin-right: 20px; float: left;">
+            <img src="Dreams_Imagery 106.jpg" alt="Aminu Ukasha Aliyu" class="about-img">
             <p>Hello! I am Aminu Ukasha Aliyu, a passionate developer with expertise in AI, ML, and web development. I love creating innovative solutions and have worked on a variety of projects. Welcome to my portfolio!</p>
             
             <h3>Educational Background</h3>
             <p>I hold a Bachelor's degree in Computer Science, which provided me with a strong foundation in software development, algorithms, and machine learning.</p>
+            
+            <a href="AminuUkashaAliyuResume.pdf" class="resume-btn" target="_blank">View My Resume</a>
         </section>
-        
+                
         <section id="skills">
             <h2>Skills</h2>
             <ul>
-                <li>Programming Languages: Python, JavaScript, PHP</li>
-                <li>Web Development: HTML, CSS, Flask, Django</li>
-                <li>Machine Learning: TensorFlow, PyTorch, scikit-learn</li>
-                <li>Tools: Git, Docker, PyCharm</li>
+                <li><b>Programming Languages:</b> Python, JavaScript, PHP</li>
+                <li><b>Web Development:</b> HTML, CSS, Flask, Django</li>
+                <li><b>Machine Learning:</b> TensorFlow, PyTorch, scikit-learn</li>
+                <li><b>Tools:</b> Git, Docker, PyCharm</li>
             </ul>
         </section>
 
@@ -45,17 +50,31 @@
 
         <section id="projects">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1: Sentiment Analysis System</h3>
-                <p>A transformer-based sentiment analysis tool that categorizes sentences into positive, negative, or neutral sentiments. <a href="#">View Project</a></p>
-            </div>
-            <div class="project">
-                <h3>Project 2: Smart To-Do List with Prioritization</h3>
-                <p>A task management tool that uses machine learning to prioritize tasks based on their importance. <a href="#">View Project</a></p>
-            </div>
-            <div class="project">
-                <h3>Project 3: E-Learning Platform with Adaptive Learning</h3>
-                <p>An adaptive e-learning platform tailored to the needs and learning pace of individual students. <a href="#">View Project</a></p>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="sentiment.jpeg" alt="Project 1">
+                    <div class="project-content">
+                        <h3>Project 1: Sentiment Analysis System</h3>
+                        <p>A transformer-based sentiment analysis tool that categorizes sentences into positive, negative, or neutral sentiments.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="todo.jpeg" alt="Project 2">
+                    <div class="project-content">
+                        <h3>Project 2: Smart To-Do List with Prioritization</h3>
+                        <p>A task management tool that uses machine learning to prioritize tasks based on their importance.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="e-learning.jpeg" alt="Project 3">
+                    <div class="project-content">
+                        <h3>Project 3: E-Learning Platform with Adaptive Learning</h3>
+                        <p>An adaptive e-learning platform tailored to the needs and learning pace of individual students.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
             </div>
         </section>
 
